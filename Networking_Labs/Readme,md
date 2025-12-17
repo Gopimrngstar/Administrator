@@ -1,1 +1,46 @@
+# Networking Home Lab (CCNA-Level Practice)
 
+## Overview
+This repository documents hands-on networking practice performed using Cisco Packet Tracer. The lab focuses on core networking concepts including routing, switching, IP addressing, VLANs, and basic troubleshooting.
+
+## Tools Used
+- Cisco Packet Tracer
+- Virtualized lab environment
+
+## Key Networking Concepts Practiced
+
+### Switching & LAN
+- VLAN configuration
+- Access and trunk ports
+- Basic switch security concepts
+- Route and Switch configuration
+
+### Routing
+- Static routing
+- Dynamic routing (RIP, OSPF, Eigrp)
+- Default gateway configuration
+- Routing interface configuration
+
+### IP Addressing
+- IPv4 addressing and subnetting
+- DHCP and Dns configuration
+- IP conflict identification
+
+### Network Services
+- DNS concepts (basic)
+- Basic NAT configuration
+- Device management and configuration access
+
+### Troubleshooting Scenarios
+- Connectivity issues between networks
+- Incorrect VLAN assignments
+- Routing table misconfigurations
+- IP addressing errors
+
+## What I Learned
+- How data flows across switches and routers
+- Importance of correct IP planning
+- Structured approach to network troubleshooting
+- Verification using show and ping/traceroute commands
+- Practice real-time routing scenarios
+- Integrate real Linux and Windows hosts
