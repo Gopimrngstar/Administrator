@@ -1,3 +1,24 @@
 interface FastEthernet0/0
  ip address 203.0.113.2 255.255.255.0
  no shutdown
+
+##Routers_route_protocols
+
+config t
+router rip
+version 2
+network 10.0.0.0
+no auto-summary
+
+######################################################
+
+config t
+router ospf 1
+network 10.0.0.0 0.255.255.255 area 0
+
+####################################################
+
+config t
+router eigrp 100
+no auto-summary
+network 10.0.0.0 0.255.255.255
